@@ -97,6 +97,7 @@ def fit(
         train_accuracy = 100 * correct / total
 
         ###################
+        #HK: always validate after the training
         # VALIDATION PHASE
         ###################
 
